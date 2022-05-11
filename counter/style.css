@@ -1,0 +1,38 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #e6e6e6;
+    background-color: #1b1b1b;
+}
+
+.container {
+    position:absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.counter {
+    font-size: 100px;
+    margin-bottom: 100px;
+    cursor: default;
+}
+
+.btn {
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #3482f7;
+}
