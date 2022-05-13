@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #202024;
+    font-size: 18px;
+    line-height: 1.6rem;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.title {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title h1 {
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.title .underline {
+    border-bottom: 4px solid #2eb0e4;
+    border-radius: 50px;
+    width: 35%;
+}
+
+.card-container {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+#profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    object-fit: cover;
+}
+
+#name {
+    font-size: 18px;
+    text-align: center;
+    font-weight:bold;
+}
+
+#job {
+    text-align: center;
+    margin-bottom: 20px;
+    color:#0b8dc0
+}
+
+.button-container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.btn {
+    font-size: 25px;
+    margin: 0 10px;
+    border: transparent;
+    background-color: transparent;
+    color: #2eb0e4;
+    cursor: pointer;
+}
+.btn:hover {
+    color: #5ed1ff;
+}
+
+.random-btn {
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 2px 25px;
+    border-radius: 10px;
+    border: transparent;
+    background-color: #2eb0e4;
+    color:#ffffff;
+}
+.random-btn:hover {
+    background-color:#5ed1ff;
+}
+
+@media(max-width: 1300px) {
+    .container {
+        width: 60%;
+    }
+}
+
+@media(max-width: 1500px) {
+    .container {
+        width: 70%;
+    }
+}
